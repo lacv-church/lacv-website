@@ -3,6 +3,7 @@
 #630063; : violet
 #584900; : vert
 */    
+
 html, body {
 margin:0;
 padding:0;
@@ -21,6 +22,10 @@ color:#526899;
 font-variant:small-caps;
 letter-spacing:0.1em;
 font-size:170%;
+}
+h3 i{
+    color: #215A0A;
+
 }
 h3 {
 color:#584900; 

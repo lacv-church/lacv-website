@@ -1,12 +1,176 @@
+
+/* rouge :#DF3F3F;
+vert : #584900;
+beige :#F3F2ED;
+*/
+
+#chapelleAcceuil i h4 {
+color: #163F05;
+}
+#acceuil h1 a {
+    font-family: arial;
+}
+.accueil {
+margin:0;
+padding:0;
+}
+.accueil {
+text-align:center;
+font:0.9em "trebuchet ms", helvetica, arial, sans-serif;
+background-color:white;
+word-wrap: break-word;
+}
+
+ /*Important !*/
+#page {
+background:white;
+margin:0 auto;
+padding:0;
+min-width:680px;
+}
+h1 {
+text-shadow:2px 2px 5px #000000;
+max-width:960px;
+margin:auto;
+padding:10px 0 15px 0;
+}
+/*Important !*/
+
+/*--------- header ----------*/
+#accueil #header, 
+#header {
+margin-bottom:10px;
+/*text-align:left;*/ // Pour ne pas centrer le titre
+/*background:#394520;*/
+/*histoireCV*/
+-moz-box-shadow:-6px 2px 6px 0 #A9A9A9;
+-webkit-box-shadow:-6px 2px 6px #A9A9A9;
+box-shadow:-6px 2px 6px 0 #A9A9A9;
+}
+#header h1 a {
+text-decoration:none;
+}
+#header h1 span.diese {
+/*font-family:SansationBold, "arial black", gadget, arial, sans-serif;*/ 
+color: #174504;
+/*color:#DF3F3F;*/
+
+font-size:1.6em
+}
+#header h1 span.debutant {
+font-family:"courier new", courier, serif; 
+color:white;
+/*font-size:1.2em*/
+}
+#header h1 abbr {
+border:none;
+}
+#header ul {
+max-width:960px;
+min-width:800px;
+margin:auto;
+height:20px;
+list-style-type:none;
+text-align:center;
+padding:5px 0 35px 0;
+}
+#header li {
+font:1em SansationBold,'trebuchet ms', helvetica, arial, sans-serif bold;
+font-variant:small-caps;
+letter-spacing:0.06em;
+float:left;
+padding:0;
+margin:0 10px 0 0;
+/*background-color:#FFFFFF;*/
+
+-moz-border-radius:5px;
+-webkit-border-radius:5px; 
+border-radius:5px;
+}
+#header li.der {
+border-right:1px solid transparent;
+}
+#header li a {
+display:block;
+width:150px;
+text-decoration:none;
+padding:6px 0;
+color: #64B93F;   // Couleur des menus
+opacity:0.5;
+font-weight:bold; 
+}
+#accueilCV #header li.accueilCV a,
+#tutos #header li.cantiquesCV a,
+#contacterCV #header li.contacterCV a,
+#enseignementsCV #header li.enseignementsCV a,
+#histoireCV #header li.histoireCV  a,
+/*#accueil #header li.enseignementsCV a {
+opacity:0.9;
+}*/
+#header li a:hover, 
+#header li a:active, 
+#header li a:focus {	
+color:#1A4607;   // Couleur des menus
+opacity:1;
+}
+#accueilCV #header li.accueilCV,
+#tutos #header li.cantiquesCV,
+#contacterCV #header li.contacterCV,
+#enseignementsCV #header li.enseignementsCV,
+#histoireCV #header li.histoireCV,
+#accueil #header li.enseignementsCV {
+/*background-color:#E97878;*/
+}
+#accueil #header li.accueilCV {
+background:/*rgba(255,63,63,0.7); */ #3C9617 ;
+opacity:0.9;
+background-color: ;
+}
+
+
+#header li:hover ,
+#accueilCV #header li.accueilCV:hover,
+#tutos #header li.cantiquesCV:hover,
+#contacterCV #header li.contacterCV:hover,
+#enseignementsCV #header li.enseignementsCV:hover,
+#histoireCV #header li.histoireCV:hover,
+#accueil #header li.enseignementsCV:hover {
+/*background-color:#DF3F3F;*/
+background-color:#3C9617;
+-moz-transition:background-color 0.3s linear;
+-webkit-transition:background-color 0.3s linear;
+-o-transition:background-color 0.3s linear;
+-ms-transition:background-color 0.3s linear;
+transition:background-color 0.3s linear;
+}
+#header p {
+color:#232916;
+font-size:90%;
+margin:0;
+}
+#header p a {
+color:#232916;
+}
+#header p a:hover {
+color:white
+}
+#header p a:active, 
+#header p a:focus {
+color:#DF3F3F;
+}
+
+
+/*Premiere prog*/
+
 /* le 02/01/2022*/
 /* rouge :#DF3F3F;
 beige :#F3F2ED;
 */
 #apropos i{
-	color: black;
+    color: black;
 }
 h2 a{
-	color: #DF3F3F;
+    color: #DF3F3F;
 }
 i{color: gold;}
 
@@ -16,20 +180,20 @@ padding:0;
 }*/
 
 body{
-	text-align:left;
-	text-align:center;
-	font:0.9em "trebuchet ms", helvetica, arial, sans-serif;
-	word-wrap: break-word;
+    text-align:left;
+    text-align:center;
+    font:0.9em "trebuchet ms", helvetica, arial, sans-serif;
+    word-wrap: break-word;
 }
 
 /*Haut de page*/
 /*header p {
-	margin-left: 250px;
-	color: white;
+    margin-left: 250px;
+    color: white;
 
 }*/
 header a{
-/*	margin-left: 250px;*/
+/*  margin-left: 250px;*/
 /*
 display:table;
 table-layout:fixed;*/
@@ -38,11 +202,11 @@ border:solid #D7D3C4;
 border-width:1px 0;
 }
 header a h3{
-	color: gold;
-	/*text-align: center;
-	font-style: oblique 300deg;*/
-	font-family:SansationBold, "arial black", gadget, arial, sans-serif;
-	/*font-family:SansationBold, 'trebuchet ms', helvetica, arial, sans-serif;*/
+    color: gold;
+    /*text-align: center;
+    font-style: oblique 300deg;*/
+    /*font-family:SansationBold, "arial black", gadget, arial, sans-serif;*/
+    /*font-family:SansationBold, 'trebuchet ms', helvetica, arial, sans-serif;*/
 }
 /*h2 {
 font-size:160%;
@@ -55,40 +219,10 @@ font-size:130%;
 color:#584900;
 }*/
 /*header{
-	background-image:url(img/IMG_3814.jpeg);
-	background-attachment:fixed;
-	background-repeat:no-repeat;
+    background-image:url(img/IMG_3814.jpeg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
 }*/
-
-/*Menu de navigation Ok*/
-/*nav{
-	margin-left: 45px;
-}*/
-nav.menu-nav ul li.btn{
-	display: inline-block;
-	margin: 3px ;
-}
-nav.menu-nav ul li.btn a{
-	font-size: 15px;
-	display:block;                /* Transformation en block */
-    min-width: 100px;             /* Largeur minimale des liens */   
-    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
-    text-align: center;           /* Centrage du texte */   
-    color: #063970;                  /* Couleur du texte */
-    text-decoration: none;        /* Suppression du soulignement */
-    border: 5px solid #526899;       /* Ajout d'une bordure */
-    border-radius: 4px;           /* Arrondis des bordures */
-    border-bottom: 2px solid transparent;
-    border-bottom: 2px solid gold;
-}
-/*			Transition de couleur pour le menu*/
-nav.menu-nav ul li.btn:hover a{
-	background-color: #526899 ;
-	color: gold;
-	transition: 0.75s all;
-
-}
 
 
 /*Contenue sous la forme de boite*/
@@ -231,7 +365,7 @@ color:#545454;
 } */ 
 
 /*--------- header ----------*/
-/*#accueil #header, 
+/*#chapelleAcceuil #header, 
 #header {
 margin-bottom:10px;
 text-align:left;
@@ -274,7 +408,7 @@ float:left;
 padding:0;
 margin:0 10px 0 0;
 background-color:#FFFFFF;
-background-color:rgba(255,255,255,0.1);	
+background-color:rgba(255,255,255,0.1); 
 -moz-border-radius:5px;
 -webkit-border-radius:5px; 
 border-radius:5px;
@@ -296,12 +430,12 @@ font-weight:bold;
 #outils #header li.outils a,
 #livre #header li.livre a,
 #css3 #header li.css3  a,
-#accueil #header li.livre a {
+#chapelleAcceuil #header li.livre a {
 opacity:0.9;
 }
 #header li a:hover, 
 #header li a:active, 
-#header li a:focus {	
+#header li a:focus {    
 color:white;
 opacity:1;
 }
@@ -310,7 +444,7 @@ opacity:1;
 #outils #header li.outils,
 #livre #header li.livre,
 #css3 #header li.css3,
-#accueil #header li.livre {
+#chapelleAcceuil #header li.livre {
 background-color:#E97878;
 background:rgba(223,63,63,0.7);
 }
@@ -320,7 +454,7 @@ background:rgba(223,63,63,0.7);
 #outils #header li.outils:hover,
 #livre #header li.livre:hover,
 #css3 #header li.css3:hover,
-#accueil #header li.livre:hover {
+#chapelleAcceuil #header li.livre:hover {
 background-color:#DF3F3F;
 background-color:rgba(223,63,63,1);
 -moz-transition:background-color 0.5s linear;
@@ -352,15 +486,15 @@ text-align:left;
 max-width:960px;
 margin:auto;
 }*/
-#accueil #home h2 a {
+#chapelleAcceuil #home h2 a {
 color:#DF3F3F !important;
 text-decoration:none;
 }
-#accueil #home h2 a:hover, 
-#accueil #home h2 a:active, 
-#accueil #home h2 a:focus {
+#chapelleAcceuil #home h2 a:hover, 
+#chapelleAcceuil #home h2 a:active, 
+#chapelleAcceuil #home h2 a:focus {
 }
-#accueil #home .table {
+#chapelleAcceuil #home .table {
 display:table;
 table-layout:fixed;
 background:#F3F2ED; 
@@ -368,35 +502,35 @@ border:solid #D7D3C4;
 border-width:1px 0;
 margin:40px 0 30px 0;
 }
-#accueil #home .cell {
+#chapelleAcceuil #home .cell {
 display:table-cell;
 width:25%;
 padding:10px 12px;
 }
-#accueil #home .cell:hover {
-background:#EFECDE; 
--moz-transition:background 0.75s linear;
--webkit-transition:background 0.75s linear;
--o-transition:background 0.75s linear;
-transition:background 0.75s linear;
+#chapelleAcceuil #home .cell:hover {
+background:white; 
+-moz-transition:background 1.75s linear;
+-webkit-transition:background 1.75s linear;
+-o-transition:background 1.75s linear;
+transition:background 1.75s linear;
 }
-/*#accueil #home .table2 {
+/*#chapelleAcceuil #home .table2 {
 display:table;
 table-layout:fixed;
 }
-#accueil #home .cell2 {
+#chapelleAcceuil #home .cell2 {
 display:table-cell;
 width:1%;
 padding:10px 12px;
 vertical-align:top;
 }*/
-/*#accueil #home p {
+/*#chapelleAcceuil #home p {
 text-align:justify;
 }
-#accueil #apropos {
+#chapelleAcceuil #apropos {
 padding:10px 12px;
 }
-#accueil #footer {
+#chapelleAcceuil #footer {
 min-width:960px;
 }
 aside {
@@ -418,7 +552,7 @@ width:700px;
 /*#edito h2 {
 margin-top:0;
 }*/
-#accueil #home h2:first-letter, 
+#chapelleAcceuil #home h2:first-letter, 
 #edito h2:first-letter {
 font-size:150%;
 text-shadow:1px 1px 1px #A9A9A9;
@@ -475,12 +609,12 @@ font-size:120%
 font-size:100%
 }
 #chapo p:before, 
-#accueil #home .table p:before {
-content:url(images/main3.png) " ";
+#chapelleAcceuil #home .table p:before {
+content:url(.png) " ";
 }
 #chapo p + p:before, 
 #chapo p.normal:before, 
-#accueil #home .table p + p:before {
+#chapelleAcceuil #home .table p + p:before {
 content:"";
 }
 --------- menu -----------
@@ -733,7 +867,7 @@ text-align:center;
 text-align:center !important; 
 }
 #copy em {
-font-family:serif;
+/*font-family:serif;*/
 font-size:105%
 }*/
 
@@ -754,7 +888,7 @@ padding-left:0;
 padding:0 0 5px 20px;
 }
 #edito, 
-#accueil #home, 
+#chapelleAcceuil #home, 
 #header h1, 
 #header ul {
 width:95%;
@@ -766,7 +900,7 @@ display:none;
 #header ul li.der {
 display:none
 }
-#accueil #home .table {
+#chapelleAcceuil #home .table {
 width:100%;
 }
 #footer section {
@@ -783,19 +917,19 @@ font-size:1.3em;
 width:140px;
 }
 #edito, 
-#accueil #home, 
+#chapelleAcceuil #home, 
 #footer {
 font-size:1.5em
 }
 #edito h2, 
-#accueil #home h2 {
+#chapelleAcceuil #home h2 {
 font-size:1.3em
 }
-#accueil .table div.cell p {
+#chapelleAcceuil .table div.cell p {
 text-align:left !important;
 }
 
-#accueil #footer {
+#chapelleAcceuil #footer {
 min-width:100%;
 }
 #footer section {
@@ -810,11 +944,11 @@ font-size:1.3em;
 }
 @media only screen and (max-device-width:980px) and (orientation:portrait) {
 #edito, 
-#accueil #home, 
+#chapelleAcceuil #home, 
 #footer {
 font-size:1.8em
 }
-#edito h2, #accueil #home h2 {
+#edito h2, #chapelleAcceuil #home h2 {
 font-size:1.3em
 }
 }*/
@@ -822,5 +956,5 @@ font-size:1.3em
 
 /*Pied de page*/
 footer{
-	color: #526899 ;
+    color: #526899 ;
 }
