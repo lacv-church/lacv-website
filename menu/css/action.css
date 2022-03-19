@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.ImgAssemblée {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(-200);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-400px);
+    opacity: 1;
+  }
+  40% {
+    transform: translateX(-600px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-800px);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-1000px);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+}
+
+.ImgAssemblée {
+  position: relative;
+  width: 25vw;
+  height: 10px;
+  margin-top: -3vh;
+}
+
+.ImgAssemblée > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 80px);
+  opacity: 0;
+  animation: display 100s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 0s;
+}
+img:nth-child(3) {
+  animation-delay: 5s;
+}
+img:nth-child(4) {
+  animation-delay: 10s;
+}
+img:nth-child(5) {
+  animation-delay: 15s;
+}
+img:nth-child(6) {
+  animation-delay: 20s;
+}
+img:nth-child(7) {
+  animation-delay: 25s;
+}
+img:nth-child(8) {
+  animation-delay: 30s;
+}
+img:nth-child(9) {
+  animation-delay: 35s;
+}
